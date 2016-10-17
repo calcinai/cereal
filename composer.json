@@ -1,0 +1,22 @@
+{
+  "name": "calcinai/cereal",
+  "description": "PHP Library for event based interaction with serial ports",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Calcinai",
+      "email": "michael@calcin.ai"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Calcinai\\Cereal\\": "src/Cereal"
+    }
+  }
+}
